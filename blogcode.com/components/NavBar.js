@@ -31,7 +31,7 @@ export default function NavBar() {
     <>
       <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-          <Image src="/images/logo.png" width={60} height={100}></Image>
+          <Image alt="some good alt text" src="/images/logo.png" width={60} height={100}></Image>
           <Box >
             <Button margin={2}>Home</Button>
             <Button margin={2}>Python</Button>

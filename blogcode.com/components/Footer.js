@@ -51,7 +51,7 @@ import {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-       <Image src="/images/logo.png" width={60} height={100}></Image>
+       <Image  alt="some good alt text" src="/images/logo.png" width={60} height={100}></Image>
           <Text>©blogcoders. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>

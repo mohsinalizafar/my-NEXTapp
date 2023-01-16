@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-
+import styles from '@/styles/Home.module.css'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
+import Body from '@/components/Body'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -14,14 +16,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <h1>Hello world NextJS app</h1>
-         
-        </div>
-
-       
-      </main>
+      <NavBar/>
+  <Body/>
+      <Footer/>
     </>
   )
 }

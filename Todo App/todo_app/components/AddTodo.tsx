@@ -11,19 +11,16 @@ export default function AddTodo() {
     const [tasks, setTasks] = useState<string[]>([]);
     const handleValue = (e: any) => {
 
-        
         setVal(e.target.value);
-       
-
     }
-    
+
     setTimeout(() => {
     
         setTasks([])
     }),20000
     const toast = useToast()
     const printVal = (val: string) => {
-      
+    
         toast({
             title: "New Task Added",
      

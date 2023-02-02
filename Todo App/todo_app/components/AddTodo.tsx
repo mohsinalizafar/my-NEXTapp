@@ -16,7 +16,6 @@ export default function AddTodo() {
        
 
     }
-
     setTimeout(() => {
     
         setTasks([])
